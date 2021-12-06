@@ -116,3 +116,10 @@ trip = Ticket('Yerevan', 'Canada', 'airplane', 12, 120, 3)
 trip.increase_duration(3)
 trip.change_transport_type('train')
 trip.passengers_amount(50)
+
+
+# Create a class for representing employee with some attributes (name, position, salary, workdays (weekdays), completed
+# tasks names) and behavior (change position, check if salary is higher than some threshold, find how many days salary
+# works per week, find if employee works on some specific weekday), create several employees and perform actions,
+# check how many employees are defined.
+
