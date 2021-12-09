@@ -55,3 +55,39 @@ hidden complexity.
 ## Deleting Attributes and Objects:
 * Any attribute of an object can be deleted anytime, using `del` statement.
 * We can even delete the object identifier, using the `del` statement.
+
+## Encapsulation:
+Using OOP in Python, we can restrict access to methods and variables. This prevents data from direct modification which 
+is called encapsulation. In Python, we denote private attributes using underscore as prefix i.e. single '_' or double '__'.
+
+We can't change it from outside class because Python treats the __engine as private attributes.
+
+## Polymorphism:
+Polymorphism is an ability in OOP to use common interface for multiple from data types.
+
+## class and instance attributes:
+* Instance attributes are owned by the specific instances of a class. This means for two different instances the instance
+attributes are usually different.
+* Class (static) attributes are attributes which are owned by the class itself. They will be shared by all the instances 
+of the class. Therefore, they have the same value for every instance. We define class attributes outside, of all the methods
+usually they are placed at the top, right below the class header.
+* If you want to change a class attribute, you have to do it with the notation ClassName.AttributeName. Otherwise, you 
+will create a new instance variable.
+
+## Inheritance: 
+* Inheritance refers to defining a new class with little or no modification to an existing class.
+* The new class is called derived (child) class and the one from which it inherits is called the base (parent) class.
+* Derived class inherits features from the base class, adding a new features to it. This results into re-usability of code.
+* The idea of class inheritance is based on the fact that some classes have much in common with other classes, but have
+some extra features.
+* So to avoid code repetition and to provide some relationship mechanism for these classes inheritance comes into.
+
+## Overriding Methods:
+We can change the inherited instance methods behavior (overriding). To override method we should just declare method with
+the signature same as in parent class. When this happens, the method in the child class overrides that in the base class.
+
+## isinstance(), issubclass():
+* `isinstance(obj, type)` checks if obj is instance of Type. For example isinstance(bmw, Car)
+* `issubclass(Type1, Type2)` checks if Type1 is subclass of Type2. For example issubclass(BMW, Car)
+
+## Private, Public, Protected:
